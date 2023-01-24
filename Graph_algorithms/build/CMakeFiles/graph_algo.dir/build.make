@@ -69,28 +69,28 @@ include CMakeFiles/graph_algo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/graph_algo.dir/flags.make
 
-CMakeFiles/graph_algo.dir/chemistry.cpp.o: CMakeFiles/graph_algo.dir/flags.make
-CMakeFiles/graph_algo.dir/chemistry.cpp.o: /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp
-CMakeFiles/graph_algo.dir/chemistry.cpp.o: CMakeFiles/graph_algo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph_algo.dir/chemistry.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph_algo.dir/chemistry.cpp.o -MF CMakeFiles/graph_algo.dir/chemistry.cpp.o.d -o CMakeFiles/graph_algo.dir/chemistry.cpp.o -c /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp
+CMakeFiles/graph_algo.dir/test.cpp.o: CMakeFiles/graph_algo.dir/flags.make
+CMakeFiles/graph_algo.dir/test.cpp.o: /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp
+CMakeFiles/graph_algo.dir/test.cpp.o: CMakeFiles/graph_algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph_algo.dir/test.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/graph_algo.dir/test.cpp.o -MF CMakeFiles/graph_algo.dir/test.cpp.o.d -o CMakeFiles/graph_algo.dir/test.cpp.o -c /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp
 
-CMakeFiles/graph_algo.dir/chemistry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algo.dir/chemistry.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp > CMakeFiles/graph_algo.dir/chemistry.cpp.i
+CMakeFiles/graph_algo.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph_algo.dir/test.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp > CMakeFiles/graph_algo.dir/test.cpp.i
 
-CMakeFiles/graph_algo.dir/chemistry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algo.dir/chemistry.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp -o CMakeFiles/graph_algo.dir/chemistry.cpp.s
+CMakeFiles/graph_algo.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph_algo.dir/test.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp -o CMakeFiles/graph_algo.dir/test.cpp.s
 
 # Object files for target graph_algo
 graph_algo_OBJECTS = \
-"CMakeFiles/graph_algo.dir/chemistry.cpp.o"
+"CMakeFiles/graph_algo.dir/test.cpp.o"
 
 # External object files for target graph_algo
 graph_algo_EXTERNAL_OBJECTS =
 
-graph_algo: CMakeFiles/graph_algo.dir/chemistry.cpp.o
+graph_algo: CMakeFiles/graph_algo.dir/test.cpp.o
 graph_algo: CMakeFiles/graph_algo.dir/build.make
 graph_algo: CMakeFiles/graph_algo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable graph_algo"

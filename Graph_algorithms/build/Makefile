@@ -129,29 +129,29 @@ graph_algo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/build
 .PHONY : graph_algo/fast
 
-chemistry.o: chemistry.cpp.o
-.PHONY : chemistry.o
+test.o: test.cpp.o
+.PHONY : test.o
 
 # target to build an object file
-chemistry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/chemistry.cpp.o
-.PHONY : chemistry.cpp.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-chemistry.i: chemistry.cpp.i
-.PHONY : chemistry.i
+test.i: test.cpp.i
+.PHONY : test.i
 
 # target to preprocess a source file
-chemistry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/chemistry.cpp.i
-.PHONY : chemistry.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-chemistry.s: chemistry.cpp.s
-.PHONY : chemistry.s
+test.s: test.cpp.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-chemistry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/chemistry.cpp.s
-.PHONY : chemistry.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graph_algo.dir/build.make CMakeFiles/graph_algo.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... graph_algo"
-	@echo "... chemistry.o"
-	@echo "... chemistry.i"
-	@echo "... chemistry.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

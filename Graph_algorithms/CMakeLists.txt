@@ -3,4 +3,4 @@ project(graph_algo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(graph_algo chemistry.cpp)
+add_executable(graph_algo test.cpp)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/graph_algo.dir/chemistry.cpp.o"
-  "CMakeFiles/graph_algo.dir/chemistry.cpp.o.d"
+  "CMakeFiles/graph_algo.dir/test.cpp.o"
+  "CMakeFiles/graph_algo.dir/test.cpp.o.d"
   "graph_algo"
   "graph_algo.pdb"
 )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp" "CMakeFiles/graph_algo.dir/chemistry.cpp.o" "gcc" "CMakeFiles/graph_algo.dir/chemistry.cpp.o.d"
+  "/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp" "CMakeFiles/graph_algo.dir/test.cpp.o" "gcc" "CMakeFiles/graph_algo.dir/test.cpp.o.d"
   )
 
 # Targets to which this target links.

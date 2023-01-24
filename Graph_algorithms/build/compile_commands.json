@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/build",
-  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20 -o CMakeFiles/graph_algo.dir/chemistry.cpp.o -c /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp",
-  "file": "/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/chemistry.cpp"
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++20 -o CMakeFiles/graph_algo.dir/test.cpp.o -c /Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp",
+  "file": "/Users/ex3nd/TenF1ngers_profile/cpp_programming/Graph_algorithms/test.cpp"
 }
 ]
